@@ -1,0 +1,414 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.btn-signin {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+.btn-signin:hover {
+    background-color: #333;
+    color: white;
+
+}
+
+.change-style {
+
+    font-family: Helvetica;
+    font-size: 28.39px;
+    font-weight: 700;
+    line-height: 36.1px;
+    text-align: center;
+
+
+}
+
+
+.nav-item {
+    position: relative;
+    right: 50%;
+    font-family: Helvetica;
+    font-size: 26.11px;
+    font-weight: 400;
+    line-height: 31.18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media screen and (max-width:800px) {
+    .nav-item a {
+        position: relative;
+        left: 90px;
+    }
+
+    .btn-signin {
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    line-height: 80px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hero-text {
+    font-family: Helvetica Light;
+    font-size: 30.17px;
+    font-weight: 300;
+    line-height: 39.53px;
+    text-align: left;
+
+
+}
+
+.btn-cta {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    width: Hug (284.64px)px;
+    height: Hug (52.9px)px;
+    top: 618px;
+    left: 65px;
+    padding: 14.95px 25.82px 14.95px 25.82px;
+    gap: 13.59px;
+    opacity: 0px;
+
+}
+
+.btn-cta:hover {
+    background-color: #333;
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .hero-heading {
+        font-size: 50px;
+        padding-left: 20px;
+
+        .hero-text {
+            padding-left: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .hero-heading {
+        font-size: 40px;
+        padding-left: 20px;
+        line-height: 50px;
+    }
+
+
+    .hero-text {
+        padding-left: 25px;
+    }
+}
+
+
+
+
+.feature-card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.feature-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.feature-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+#center-box {
+    font-size: 14px;
+}
+
+
+.hosting-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.hosting-text {
+    text-align: left;
+}
+
+.hosting-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hosting-description {
+    font-size: 1rem;
+    color: #333;
+    font-family: Helvetica Light;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39.33px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hosting-image {
+    text-align: center;
+}
+
+.hosting-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:500px) {
+    .hosting-title {
+        font-size: 40px;
+        padding-left: 20px;
+        line-height: 50px;
+    }
+
+    .hosting-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+/* General styles */
+.features {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68.99px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.feature {
+
+
+    text-align: center;
+    margin-bottom: 20px;
+    width: Fixed (406px)px;
+    height: Hug (366.09px)px;
+    padding: 32.42px 29.82px 32.42px 29.82px;
+    gap: 18.15px;
+    border-radius: 15.56px 15.56px 15.56px 15.56px;
+    border: 2.59px 0px 0px 0px;
+    opacity: 0px;
+    border: 2.59px solid #000000
+}
+
+.feature-number {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 86.09px;
+    font-weight: 700;
+    line-height: 98.99px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .features {
+        padding: 20px 0;
+    }
+
+    .feature {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+.signup-heading {
+    font-family: Helvetica;
+    font-size: 42.76px;
+    font-weight: 700;
+    line-height: 51.47px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.input-group input{
+
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+
+
+
+.input-group button{
+    
+    width: 30%;
+    
+}
+
+
+@media (max-width: 600px) {
+    .signup-form {
+        padding-top: 60px;
+    }
+
+    
+}
+
+
+footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+}
+
+
+
+footer .logo-content span {
+    font-family: Helvetica;
+    font-size: 32.88px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 10px;
+    
+}
+
+
+footer .logo-content p{
+    width: 30%;
+    padding-top: 10px;
+}
+footer .logo-content h1{
+    
+font-size: 20px;
+font-family: Helvetica;
+
+
+}
+
+.menu-links{
+    display: flex;
+    padding-top: 30px;
+    
+}
+
+
+
+.menu-links ul {
+
+padding: 0 40px;
+}
+.menu-links ul li{
+    list-style-type:none;
+    line-height: 30px;
+    
+}
+
+
+@media (max-width: 700px) {
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .logo-content p{
+        margin: auto;
+        width: 80%;
+        padding: 30px;
+    }
+
+    
+}
+
+
+
